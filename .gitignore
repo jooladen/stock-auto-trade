@@ -34,6 +34,9 @@ Thumbs.db
 .claude/settings.local.json
 CLAUDE.local.md
 
+# Streamlit 시크릿
+.streamlit/secrets.toml
+
 # 출력 및 로그
 output/
 logs/

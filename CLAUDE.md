@@ -9,7 +9,7 @@
 - **가상환경**: venv (`python -m venv venv`)
 
 ## 개발 명령어
-1. 의존성 설치: `pip install -r requirements.txt`
+1. 의존성 설치: `pip install -r requirements-dev.txt`
 2. 애플리케이션 실행: `python main.py`
 3. 테스트 실행: `pytest`
 4. 린트 검사: `ruff check .`

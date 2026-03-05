@@ -455,7 +455,35 @@ python main.py --start 20250101 --end 20251231 --tickers 005930
 
 ---
 
-## 9. 파일 구조 한눈에 보기
+## 9. 온라인 배포 (Streamlit Community Cloud)
+
+대시보드를 인터넷에 배포하면 설치 없이 브라우저에서 바로 접속할 수 있습니다.
+
+### 배포 방법 (5단계)
+
+1. GitHub에 코드를 push합니다 (이미 되어 있다면 생략).
+2. [share.streamlit.io](https://share.streamlit.io) 에 접속하여 GitHub 계정으로 로그인합니다.
+3. **"New app"** 버튼을 클릭합니다.
+4. 아래와 같이 설정합니다:
+   - **Repository**: `jooladen/stock-auto-trade`
+   - **Branch**: `main`
+   - **Main file path**: `dashboard.py`
+5. **"Deploy"** 를 클릭하면 몇 분 내에 배포가 완료됩니다.
+
+### 접속
+
+배포가 완료되면 `https://<app-name>.streamlit.app` 형태의 URL이 생성됩니다.
+이 URL을 공유하면 누구나 브라우저에서 대시보드를 사용할 수 있습니다.
+
+### 참고 사항
+
+- `requirements.txt`에 있는 런타임 패키지만 자동 설치됩니다.
+- 앱 설정(시크릿 등)은 Streamlit Cloud 대시보드의 **Settings > Secrets**에서 관리합니다.
+- 소스 코드가 업데이트되면 자동으로 재배포됩니다.
+
+---
+
+## 10. 파일 구조 한눈에 보기
 
 ```
 stock-auto-trade/
