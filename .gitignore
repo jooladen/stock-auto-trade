@@ -1,0 +1,39 @@
+# 환경 변수 및 시크릿
+.env
+.env.*
+credentials.json
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 가상환경
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code 로컬 설정
+.claude/settings.local.json
+CLAUDE.local.md
+
+# 출력 및 로그
+output/
+logs/

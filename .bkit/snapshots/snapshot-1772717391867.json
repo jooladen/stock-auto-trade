@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-03-05T13:29:51.864Z",
+  "reason": "compaction",
+  "status": {
+    "version": "2.0",
+    "lastUpdated": "2026-03-05T13:30:00.000Z",
+    "activeFeatures": [
+      "stock-auto-trade"
+    ],
+    "primaryFeature": "stock-auto-trade",
+    "features": {
+      "stock-auto-trade": {
+        "phase": "completed",
+        "matchRate": 93,
+        "iterationCount": 1,
+        "startedAt": "2026-03-05T12:30:00.000Z",
+        "phaseNumber": 6,
+        "timestamps": {
+          "lastUpdated": "2026-03-05T13:30:00.000Z"
+        }
+      }
+    },
+    "pipeline": {
+      "currentPhase": 1,
+      "level": "Dynamic",
+      "phaseHistory": []
+    },
+    "session": {
+      "startedAt": "2026-03-05T12:22:21.931Z",
+      "onboardingCompleted": true,
+      "lastActivity": "2026-03-05T13:30:00.000Z"
+    },
+    "history": [
+      {
+        "action": "plan_created",
+        "feature": "stock-auto-trade",
+        "timestamp": "2026-03-05T12:30:00.000Z"
+      },
+      {
+        "action": "design_created",
+        "feature": "stock-auto-trade",
+        "timestamp": "2026-03-05T12:45:00.000Z"
+      },
+      {
+        "action": "do_completed",
+        "feature": "stock-auto-trade",
+        "timestamp": "2026-03-05T13:05:00.000Z"
+      },
+      {
+        "action": "check_analyzed",
+        "feature": "stock-auto-trade",
+        "matchRate": 78,
+        "timestamp": "2026-03-05T13:20:00.000Z"
+      },
+      {
+        "action": "iterate_completed",
+        "feature": "stock-auto-trade",
+        "matchRate": 93,
+        "iteration": 1,
+        "timestamp": "2026-03-05T13:25:00.000Z"
+      },
+      {
+        "action": "report_created",
+        "feature": "stock-auto-trade",
+        "timestamp": "2026-03-05T13:30:00.000Z"
+      }
+    ]
+  }
+}
